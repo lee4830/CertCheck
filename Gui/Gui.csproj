@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>SSLCertificateChecker</AssemblyName><Version>1.0.0</Version>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PublishSingleFile>true</PublishSingleFile><SelfContained>true</SelfContained><RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract><DebugType>none</DebugType>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Core/Core.csproj" /></ItemGroup>
+</Project>
